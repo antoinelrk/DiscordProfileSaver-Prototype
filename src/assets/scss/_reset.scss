@@ -1,0 +1,49 @@
+/**
+ * [AntoineLRK]: Template scss v1.2
+ */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--default-fz);
+    scroll-behavior: smooth;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited,
+a:active {
+    text-decoration: none;
+    border: inherit;
+    outline: none;
+    color: inherit;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    color: inherit;
+}
+
+img {
+    height: 100%;
+}
+
+button {
+    background-color: inherit;
+    cursor: pointer;
+    border: none;
+    
+    &.active {
+        border: solid 3px var(--tonic) !important;
+        background-color: var(--background-alt);
+    }
+}
+
+i {
+    font-style: normal;
+}

@@ -1,0 +1,33 @@
+/**
+ * [AntoineLRK]: Template scss v1.2
+ */
+
+:root {
+    // Dark Theme
+    --light-tonic: #ff5100;
+    --dbackground: #111111;
+    --dbackground-alt: #222222;
+    --dforeground-alt: #565656;
+    --dforeground: var(--white);
+    --red: #f14e4e;
+    
+    // Light Theme
+    --dark-tonic: #00f7ff;
+    --lbackground: #fff;
+    --lbackground-alt: #e5e5e5;
+    --lforeground: #3c3836;
+    --lforeground-alt: #7d7774;
+}
+// Scss
+$lightTonic: #ff5100;
+$dbackground: #111111;
+$dbackgroundAlt: #222222;
+$dforegroundAlt: #565656;
+$dforeground: var(--white);
+
+// Scss
+$darkTonic: #00f7ff;
+$lbackground: #fff;
+$lbackgroundAlt: #e5e5e5;
+$lforeground: #3c3836;
+$lforegroundAlt: #7d7774;
